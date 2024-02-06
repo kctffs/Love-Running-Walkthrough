@@ -4,14 +4,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Genral Style */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic Project Style */
+    color: #3a3a3a;
+}
+
 /* Header */
 header {
     background-color: lightcoral;
 }
+
 /* Main Content */
 main {
     background-color: lightblue;
+    /* Main Element Take Surplus Space, Push Footer Down */
+    flex: 1 0 auto;
 }
+
 /* Footer */
 footer {
     background-color: orange;
